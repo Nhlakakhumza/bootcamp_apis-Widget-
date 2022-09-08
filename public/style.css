@@ -1,0 +1,42 @@
+.message{
+    padding: 1em;
+    background-color: chartreuse;
+    margin-bottom: 1em;
+    /* color: coral; */
+}
+.cont{
+    padding: 0.5em;
+    margin: 0.1em;
+    font-style: italic;
+    color: red;
+}
+.input > label{
+    display: inline-block;
+    /* width: 15em; */
+    padding: 0.5em;
+    font-weight: bold;
+}
+.input > input[type="text"]{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.widget{
+    flex: 1;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+h1{
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 0.5em;
+}
+body{
+    background-color: blue;
+}
+@media(min-width:1050px){
+    .widgets{
+        display: flex;
+    }
+}
